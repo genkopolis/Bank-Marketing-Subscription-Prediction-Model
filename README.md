@@ -76,7 +76,7 @@ To address this challenge, class weights were applied to:
 - Decision Tree
 - Random Forest
 
-## To penalize -
+## To penalize
 misclassification of the minority class, SMOTE (Synthetic Minority Oversampling Technique) was implemented with XGBoost to generate synthetic samples of the minority class and improve class representation within the training data. This approach helped improve the model's ability to identify potential subscribers.
 
 ## Model Development
