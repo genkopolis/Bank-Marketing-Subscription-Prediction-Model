@@ -110,7 +110,8 @@ vi. Confusion Matrix was used to analyze:
 
 In order to understand prediction errors, model comparison was performed using these metrics to select the best-performing algorithm.
 
-# Hyperparameter Tuning - After identifying the best-performing model, hyperparameter tuning was conducted to improve performance further.
+# Hyperparameter Tuning - 
+After identifying the best-performing model, hyperparameter tuning was conducted to improve performance further.
 
 # Grid Search Cross Validation (GridSearchCV) or Randomized Search Cross Validation (RandomizedSearchCV) was used to identify optimal parameter combinations.
 
@@ -134,7 +135,7 @@ This analysis helped identify patterns among incorrectly predicted customers and
 
 Special attention was given to false negatives, as these represent customers who were likely to subscribe but were incorrectly classified as non-subscribers.
 
-# Feature Importance Analysis was conducted on the final model to identify variables with the highest predictive influence. This analysis highlighted customer and campaign-related factors that significantly affect subscription outcomes. The findings provide valuable business insights and help stakeholders understand the primary drivers of customer conversion.
+*Feature Importance Analysis was conducted on the final model to identify variables with the highest predictive influence. This analysis highlighted customer and campaign-related factors that significantly affect subscription outcomes. The findings provide valuable business insights and help stakeholders understand the primary drivers of customer conversion.*
 
 Model Deployment and Persistence
 
